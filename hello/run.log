@@ -1,0 +1,379 @@
+[2m2024-05-29T08:41:41.597913Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::client::prove::external[0m[2m:[0m Launching r0vm
+[2m2024-05-29T08:41:41.598394Z[0m [34mDEBUG[0m [2mrisc0_binfmt::image[0m[2m:[0m root_page_addr: 0x0d6b5800, root_addr: 0x0d6b5ac0
+[2m2024-05-29T08:41:41.634190Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::api::server[0m[2m:[0m connect
+[2m2024-05-29T08:41:41.634258Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::api[0m[2m:[0m connect
+[2m2024-05-29T08:41:41.636110Z[0m [34mDEBUG[0m [2mrisc0_binfmt::image[0m[2m:[0m root_page_addr: 0x0d6b5800, root_addr: 0x0d6b5ac0
+[2m2024-05-29T08:41:41.661388Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m BYTES_INIT
+[2m2024-05-29T08:41:41.661409Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m BYTES_SETUP
+[2m2024-05-29T08:41:41.661424Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m RAM_INIT
+[2m2024-05-29T08:41:41.661427Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m RESET
+[2m2024-05-29T08:41:41.661430Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m RESET
+[2m2024-05-29T08:41:41.661433Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m RESET
+[2m2024-05-29T08:41:41.661435Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m FINI
+[2m2024-05-29T08:41:41.662066Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00030000
+[2m2024-05-29T08:41:41.662078Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00035800
+[2m2024-05-29T08:41:41.662082Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00035ac0
+[2m2024-05-29T08:41:41.662085Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00035ad6
+[2m2024-05-29T08:41:41.662108Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000803
+[2m2024-05-29T08:41:41.662111Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00034040
+[2m2024-05-29T08:41:41.662114Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00035a02
+[2m2024-05-29T08:41:41.662118Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00035ad0
+[2m2024-05-29T08:41:41.662133Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00030000
+[2m2024-05-29T08:41:41.662137Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00035800
+[2m2024-05-29T08:41:41.662140Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00035ac0
+[2m2024-05-29T08:41:41.662142Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00035ad6
+[2m2024-05-29T08:41:41.662155Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x0000081f
+[2m2024-05-29T08:41:41.662157Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000805
+[2m2024-05-29T08:41:41.662160Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000800
+[2m2024-05-29T08:41:41.662163Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00000800
+[2m2024-05-29T08:41:41.662165Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00034040
+[2m2024-05-29T08:41:41.662167Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00035a02
+[2m2024-05-29T08:41:41.662169Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00035ad0
+[2m2024-05-29T08:41:41.662172Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x0000080a
+[2m2024-05-29T08:41:41.662175Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000802
+[2m2024-05-29T08:41:41.662189Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x0000082a
+[2m2024-05-29T08:41:41.662191Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00034041
+[2m2024-05-29T08:41:41.662192Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x0000082a
+[2m2024-05-29T08:41:41.662194Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m mark_page: 0x00034041
+[2m2024-05-29T08:41:41.662199Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x0000080c
+[2m2024-05-29T08:41:41.662202Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000820
+[2m2024-05-29T08:41:41.662418Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::syscall[0m[2m:[0m SYS_RANDOM: 4
+[2m2024-05-29T08:41:41.662442Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x0000080b
+[2m2024-05-29T08:41:41.662456Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::syscall[0m[2m:[0m sys_read, attempting to read 4 bytes from fd 0, to_guest: 4 bytes
+[2m2024-05-29T08:41:41.662593Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::api::client[0m[2m:[0m on_posix_read: 0, 8192
+[2m2024-05-29T08:41:41.662655Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::syscall[0m[2m:[0m Main read got 4 bytes out of requested 4
+[2m2024-05-29T08:41:41.662665Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::syscall[0m[2m:[0m Writing 4 bytes to file descriptor 3
+[2m2024-05-29T08:41:41.662680Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Initial sha state: [6a09e667, bb67ae85, 3c6ef372, a54ff53a, 510e527f, 9b05688c, 1f83d9ab, 5be0cd19]
+[2m2024-05-29T08:41:41.662960Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Compressing block [78000001, 80, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 20000000]
+[2m2024-05-29T08:41:41.662963Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Final sha state: [0975cd92, bbee0318, 20e817f5, ed9ce479, af10e785, b51c9ed1, 6c572d5c, 90110608]
+[2m2024-05-29T08:41:41.662973Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000807
+[2m2024-05-29T08:41:41.662978Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000806
+[2m2024-05-29T08:41:41.662983Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000804
+[2m2024-05-29T08:41:41.662986Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000809
+[2m2024-05-29T08:41:41.662990Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m load_page: 0x00000808
+[2m2024-05-29T08:41:41.663003Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Initial sha state: [6a09e667, bb67ae85, 3c6ef372, a54ff53a, 510e527f, 9b05688c, 1f83d9ab, 5be0cd19]
+[2m2024-05-29T08:41:41.663006Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Compressing block [63736972, 754f2e30, 74757074, 80, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 60000000]
+[2m2024-05-29T08:41:41.663008Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Final sha state: [77eafeb3, 66a78b47, 747de0d7, bb176284, 085ff556, 4887009a, 5be63da3, 2d3559d4]
+[2m2024-05-29T08:41:41.663040Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Initial sha state: [6a09e667, bb67ae85, 3c6ef372, a54ff53a, 510e527f, 9b05688c, 1f83d9ab, 5be0cd19]
+[2m2024-05-29T08:41:41.663042Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Compressing block [b3feea77, 478ba766, d7e07d74, 846217bb, 56f55f08, 9a008748, a33de65b, d459352d, 92cd7509, 1803eebb, f517e820, 79e49ced, 85e710af, d19e1cb5, 5c2d576c, 8061190]
+[2m2024-05-29T08:41:41.663044Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Final sha state: [8e6b701b, e293c2c1, 6ed9fa24, 8ab7ae5e, b93f8fa9, 09852d72, 1c7994f8, d0b05518]
+[2m2024-05-29T08:41:41.663059Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Initial sha state: [8e6b701b, e293c2c1, 6ed9fa24, 8ab7ae5e, b93f8fa9, 09852d72, 1c7994f8, d0b05518]
+[2m2024-05-29T08:41:41.663061Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Compressing block [00, 00, 00, 00, 00, 00, 00, 00, 800002, 00, 00, 00, 00, 00, 00, 10030000]
+[2m2024-05-29T08:41:41.663063Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Final sha state: [bc7ab6c4, 77052895, 6e0772b2, 2ee8a218, d2e57107, 4b1a46d2, 46a18479, f55e2bc2]
+[2m2024-05-29T08:41:41.663069Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m exit_code: Halted(0), total_cycles: 39806
+[2m2024-05-29T08:41:41.663071Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m flush page: 0x00000800
+[2m2024-05-29T08:41:41.663073Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m flush page: 0x0000082a
+[2m2024-05-29T08:41:41.663074Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::monitor[0m[2m:[0m flush page: 0x00030000
+[2m2024-05-29T08:41:41.663811Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m segment[0]> reads: 23, writes: 10, exit_code: Halted(0), split_insn: None, po2: 16, cycles: 2663
+[2m2024-05-29T08:41:41.663815Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m Halted(0): 29077
+[2m2024-05-29T08:41:41.669618Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 1.9ms
+[2m2024-05-29T08:41:41.669638Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-05-29T08:41:41.669642Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 65536
+[2m2024-05-29T08:41:41.669644Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 2663
+[2m2024-05-29T08:41:41.669647Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m cycle efficiency: 4%
+[2m2024-05-29T08:41:41.669651Z[0m [32m INFO[0m [2mrisc0_zkvm::host::server::prove::prover_impl[0m[2m:[0m prove_session: cpu, exit_code = Halted(0), journal = Some("01000078")
+[2m2024-05-29T08:41:41.682965Z[0m [34mDEBUG[0m [2mrisc0_binfmt::image[0m[2m:[0m root_page_addr: 0x0d6b5800, root_addr: 0x0d6b5ac0
+[2m2024-05-29T08:41:41.683053Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::prover_impl[0m[2m:[0m prove_segment[0]: po2: 16, cycles: 2663
+[2m2024-05-29T08:41:41.683057Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove[0m[2m:[0m run> pc: 0x00200fbc
+[2m2024-05-29T08:41:41.683808Z[0m [34mDEBUG[0m [2mrisc0_zkp::prove::executor[0m[2m:[0m po2: 16, steps: 65536, code_size: 16
+[2m2024-05-29T08:41:41.687665Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m BYTES_INIT
+[2m2024-05-29T08:41:41.688352Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m BYTES_SETUP
+[2m2024-05-29T08:41:41.689345Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m RAM_INIT
+[2m2024-05-29T08:41:41.690323Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m RESET
+[2m2024-05-29T08:41:41.690419Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m BODY
+[2m2024-05-29T08:41:41.691330Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [1592] page_read: 0x00035ad6
+[2m2024-05-29T08:41:41.694830Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [2346] page_read: 0x00035ad0
+[2m2024-05-29T08:41:41.699125Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [3440] page_read: 0x00035ac0
+[2m2024-05-29T08:41:41.703438Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [4534] page_read: 0x00035a02
+[2m2024-05-29T08:41:41.707610Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [5628] page_read: 0x00035800
+[2m2024-05-29T08:41:41.711764Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [6722] page_read: 0x00034041
+[2m2024-05-29T08:41:41.715941Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [7816] page_read: 0x00034040
+[2m2024-05-29T08:41:41.720322Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [8910] page_read: 0x00030000
+[2m2024-05-29T08:41:41.724492Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [10004] page_read: 0x0000082a
+[2m2024-05-29T08:41:41.728772Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [11098] page_read: 0x00000820
+[2m2024-05-29T08:41:41.733149Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [12192] page_read: 0x0000081f
+[2m2024-05-29T08:41:41.737603Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [13286] page_read: 0x0000080c
+[2m2024-05-29T08:41:41.742002Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [14380] page_read: 0x0000080b
+[2m2024-05-29T08:41:41.746224Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [15474] page_read: 0x0000080a
+[2m2024-05-29T08:41:41.750495Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [16568] page_read: 0x00000809
+[2m2024-05-29T08:41:41.754658Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [17662] page_read: 0x00000808
+[2m2024-05-29T08:41:41.758788Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [18756] page_read: 0x00000807
+[2m2024-05-29T08:41:41.762752Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [19850] page_read: 0x00000806
+[2m2024-05-29T08:41:41.767044Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [20944] page_read: 0x00000805
+[2m2024-05-29T08:41:41.771385Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [22038] page_read: 0x00000804
+[2m2024-05-29T08:41:41.775666Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [23132] page_read: 0x00000803
+[2m2024-05-29T08:41:41.779874Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [24226] page_read: 0x00000802
+[2m2024-05-29T08:41:41.784141Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m [25320] page_read: 0x00000800
+[2m2024-05-29T08:41:41.800492Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::exec[0m[2m:[0m HALT[29068]> pc: 0x00203088
+[2m2024-05-29T08:41:41.826269Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkp::prove::executor[0m[2m:[0m cycle:65480 + needed_fini:6 + ZK_CYCLES:50 = 65536 >= steps: 65536
+[2m2024-05-29T08:41:41.826303Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkp::prove::executor[0m[2m:[0m halted
+[2m2024-05-29T08:41:41.826307Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m RESET
+[2m2024-05-29T08:41:41.826339Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m RESET
+[2m2024-05-29T08:41:41.826366Z[0m [34mDEBUG[0m [1mload[0m[2m:[0m [2mrisc0_zkvm::host::server::prove::loader[0m[2m:[0m FINI
+[2m2024-05-29T08:41:42.020352Z[0m [34mDEBUG[0m [1mcommit_group[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m code group root: c092a057cde2321680404b6af7a936536bbf9f13bdef8459cc62542576f57532
+[2m2024-05-29T08:41:42.936009Z[0m [34mDEBUG[0m [1mcommit_group[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m data group root: ff7197247eff86635405e31b2754c375da52b434af9b467262bedc117ed4ba4a
+[2m2024-05-29T08:41:43.196592Z[0m [34mDEBUG[0m [1mcommit_group[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m accum group root: bdca1f3eeffbea77f2730710962b7340144e0629fbbc8c666c17403874c55176
+[2m2024-05-29T08:41:43.196632Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::prover_impl[0m[2m:[0m Globals: mux: {body: {global: {
+  output: {word: {
+    [0]:  0xbc7ab6c4
+    [1]:  0x77052895
+    [2]:  0x6e0772b2
+    [3]:  0x2ee8a218
+    [4]:  0xd2e57107
+    [5]:  0x4b1a46d2
+    [6]:  0x46a18479
+    [7]:  0xf55e2bc2
+  } }
+  post: {
+    image_id: {word: {
+      [0]:  0x32fc75bc
+      [1]:  0x2645280b
+      [2]:  0x7ba47556
+      [3]:  0xe3ff28f4
+      [4]:  0x98d088bb
+      [5]:  0x5feafbe9
+      [6]:  0xef7b712b
+      [7]:  0x4b8d9e54
+    } }
+    pc:  0x8c302000
+  }
+  pre: {
+    image_id: {word: {
+      [0]:  0x32fc75bc
+      [1]:  0x2645280b
+      [2]:  0x7ba47556
+      [3]:  0xe3ff28f4
+      [4]:  0x98d088bb
+      [5]:  0x5feafbe9
+      [6]:  0xef7b712b
+      [7]:  0x4b8d9e54
+    } }
+    pc:  0xbc0f2000
+  }
+} } }
+
+[2m2024-05-29T08:41:45.251291Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m checkGroup: 85386c457a5e2215f7184630665ab60c60d7c648a9d326098f7c8217f20d7a15
+[2m2024-05-29T08:41:45.334941Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m Size of U = 942
+[2m2024-05-29T08:41:45.335419Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m Mix = [878314199, 1073997387, 1654260448, 1702718001]
+[2m2024-05-29T08:41:45.336601Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m[1mmix_poly_coeffs[0m[2m:[0m [2mrisc0_zkp::hal::cpu[0m[2m:[0m output: 786432, input: 2359296, combos: 36, input_size: 36, count: 65536
+[2m2024-05-29T08:41:45.341541Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m[1mmix_poly_coeffs[0m[2m:[0m [2mrisc0_zkp::hal::cpu[0m[2m:[0m output: 786432, input: 1048576, combos: 16, input_size: 16, count: 65536
+[2m2024-05-29T08:41:45.344314Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m[1mmix_poly_coeffs[0m[2m:[0m [2mrisc0_zkp::hal::cpu[0m[2m:[0m output: 786432, input: 14614528, combos: 223, input_size: 223, count: 65536
+[2m2024-05-29T08:41:45.355891Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m[1mmix_poly_coeffs[0m[2m:[0m [2mrisc0_zkp::hal::cpu[0m[2m:[0m output: 786432, input: 1048576, combos: 16, input_size: 16, count: 65536
+[2m2024-05-29T08:41:45.372567Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m FRI-proof, size = 65536
+[2m2024-05-29T08:41:45.372586Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m[1mfri_prove[0m[2m:[0m [2mrisc0_zkp::prove::fri[0m[2m:[0m Doing FRI folding
+[2m2024-05-29T08:41:45.397618Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m[1mfri_prove[0m[2m:[0m [2mrisc0_zkp::prove::fri[0m[2m:[0m Doing FRI folding
+[2m2024-05-29T08:41:45.400138Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m[1mfri_prove[0m[2m:[0m [2mrisc0_zkp::prove::fri[0m[2m:[0m Doing Queries
+[2m2024-05-29T08:41:45.401352Z[0m [34mDEBUG[0m [1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m Proof size = 53817
+[2m2024-05-29T08:41:45.408396Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m code_merkle
+[2m2024-05-29T08:41:45.408473Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m data_merkle
+[2m2024-05-29T08:41:45.408537Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accumulate
+[2m2024-05-29T08:41:45.408563Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accum_merkle
+[2m2024-05-29T08:41:45.408625Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m check_merkle
+[2m2024-05-29T08:41:45.409234Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m > compute_polynomial
+[2m2024-05-29T08:41:45.411178Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m < compute_polynomial
+[2m2024-05-29T08:41:45.422383Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m code_merkle
+[2m2024-05-29T08:41:45.422480Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m data_merkle
+[2m2024-05-29T08:41:45.422551Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accumulate
+[2m2024-05-29T08:41:45.422564Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accum_merkle
+[2m2024-05-29T08:41:45.422643Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m check_merkle
+[2m2024-05-29T08:41:45.423255Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m > compute_polynomial
+[2m2024-05-29T08:41:45.423469Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m < compute_polynomial
+[2m2024-05-29T08:41:45.432937Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m final: ReceiptClaim {
+    pre: MaybePruned {
+        value: SystemState {
+            pc: 2101180,
+            merkle_root: Digest(32fc75bc2645280b7ba47556e3ff28f498d088bb5feafbe9ef7b712b4b8d9e54),
+        },
+        digest: Digest(6f603711d51a1f7306af7a95f57e13a48d33d0b891adbf9d5b72923dd60dfa3b),
+    },
+    post: MaybePruned {
+        value: SystemState {
+            pc: 2109580,
+            merkle_root: Digest(32fc75bc2645280b7ba47556e3ff28f498d088bb5feafbe9ef7b712b4b8d9e54),
+        },
+        digest: Digest(0114a31c6c35ac8c489a99f10fda8215475c61545065b491bebb09c64dbb54a9),
+    },
+    exit_code: Halted(
+        0,
+    ),
+    input: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+    output: MaybePruned {
+        value: Some(
+            Output {
+                journal: MaybePruned {
+                    value: [
+                        1,
+                        0,
+                        0,
+                        120,
+                    ],
+                    digest: Digest(0975cd92bbee031820e817f5ed9ce479af10e785b51c9ed16c572d5c90110608),
+                },
+                assumptions: MaybePruned {
+                    value: Assumptions(
+                        [],
+                    ),
+                    digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+                },
+            },
+        ),
+        digest: Digest(bc7ab6c4770528956e0772b22ee8a218d2e571074b1a46d246a18479f55e2bc2),
+    },
+}
+[2m2024-05-29T08:41:45.432987Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+[2m2024-05-29T08:41:45.432991Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+[2m2024-05-29T08:41:45.433001Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m code_merkle
+[2m2024-05-29T08:41:45.433061Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m data_merkle
+[2m2024-05-29T08:41:45.433119Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accumulate
+[2m2024-05-29T08:41:45.433124Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accum_merkle
+[2m2024-05-29T08:41:45.433183Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m check_merkle
+[2m2024-05-29T08:41:45.433810Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m > compute_polynomial
+[2m2024-05-29T08:41:45.434072Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m < compute_polynomial
+[2m2024-05-29T08:41:45.443584Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m final: ReceiptClaim {
+    pre: MaybePruned {
+        value: SystemState {
+            pc: 2101180,
+            merkle_root: Digest(32fc75bc2645280b7ba47556e3ff28f498d088bb5feafbe9ef7b712b4b8d9e54),
+        },
+        digest: Digest(6f603711d51a1f7306af7a95f57e13a48d33d0b891adbf9d5b72923dd60dfa3b),
+    },
+    post: MaybePruned {
+        value: SystemState {
+            pc: 2109580,
+            merkle_root: Digest(32fc75bc2645280b7ba47556e3ff28f498d088bb5feafbe9ef7b712b4b8d9e54),
+        },
+        digest: Digest(0114a31c6c35ac8c489a99f10fda8215475c61545065b491bebb09c64dbb54a9),
+    },
+    exit_code: Halted(
+        0,
+    ),
+    input: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+    output: MaybePruned {
+        value: Some(
+            Output {
+                journal: MaybePruned {
+                    value: [
+                        1,
+                        0,
+                        0,
+                        120,
+                    ],
+                    digest: Digest(0975cd92bbee031820e817f5ed9ce479af10e785b51c9ed16c572d5c90110608),
+                },
+                assumptions: MaybePruned {
+                    value: Assumptions(
+                        [],
+                    ),
+                    digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+                },
+            },
+        ),
+        digest: Digest(bc7ab6c4770528956e0772b22ee8a218d2e571074b1a46d246a18479f55e2bc2),
+    },
+}
+[2m2024-05-29T08:41:45.443610Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+[2m2024-05-29T08:41:45.443615Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+[2m2024-05-29T08:41:45.443621Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+[2m2024-05-29T08:41:45.456386Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m code_merkle
+[2m2024-05-29T08:41:45.456498Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m data_merkle
+[2m2024-05-29T08:41:45.456563Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accumulate
+[2m2024-05-29T08:41:45.456571Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accum_merkle
+[2m2024-05-29T08:41:45.456632Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m check_merkle
+[2m2024-05-29T08:41:45.457261Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m > compute_polynomial
+[2m2024-05-29T08:41:45.457841Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m < compute_polynomial
+[2m2024-05-29T08:41:45.467327Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m final: ReceiptClaim {
+    pre: MaybePruned {
+        value: SystemState {
+            pc: 2101180,
+            merkle_root: Digest(32fc75bc2645280b7ba47556e3ff28f498d088bb5feafbe9ef7b712b4b8d9e54),
+        },
+        digest: Digest(6f603711d51a1f7306af7a95f57e13a48d33d0b891adbf9d5b72923dd60dfa3b),
+    },
+    post: MaybePruned {
+        value: SystemState {
+            pc: 2109580,
+            merkle_root: Digest(32fc75bc2645280b7ba47556e3ff28f498d088bb5feafbe9ef7b712b4b8d9e54),
+        },
+        digest: Digest(0114a31c6c35ac8c489a99f10fda8215475c61545065b491bebb09c64dbb54a9),
+    },
+    exit_code: Halted(
+        0,
+    ),
+    input: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+    output: MaybePruned {
+        value: Some(
+            Output {
+                journal: MaybePruned {
+                    value: [
+                        1,
+                        0,
+                        0,
+                        120,
+                    ],
+                    digest: Digest(0975cd92bbee031820e817f5ed9ce479af10e785b51c9ed16c572d5c90110608),
+                },
+                assumptions: MaybePruned {
+                    value: Assumptions(
+                        [],
+                    ),
+                    digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+                },
+            },
+        ),
+        digest: Digest(bc7ab6c4770528956e0772b22ee8a218d2e571074b1a46d246a18479f55e2bc2),
+    },
+}
+[2m2024-05-29T08:41:45.467398Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+[2m2024-05-29T08:41:45.467402Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+[2m2024-05-29T08:41:45.467433Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m code_merkle
+[2m2024-05-29T08:41:45.467494Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m data_merkle
+[2m2024-05-29T08:41:45.467556Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accumulate
+[2m2024-05-29T08:41:45.467562Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accum_merkle
+[2m2024-05-29T08:41:45.467642Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m check_merkle
+[2m2024-05-29T08:41:45.468328Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m > compute_polynomial
+[2m2024-05-29T08:41:45.468572Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m < compute_polynomial
+[2m2024-05-29T08:41:45.477886Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m final: ReceiptClaim {
+    pre: MaybePruned {
+        value: SystemState {
+            pc: 2101180,
+            merkle_root: Digest(32fc75bc2645280b7ba47556e3ff28f498d088bb5feafbe9ef7b712b4b8d9e54),
+        },
+        digest: Digest(6f603711d51a1f7306af7a95f57e13a48d33d0b891adbf9d5b72923dd60dfa3b),
+    },
+    post: MaybePruned {
+        value: SystemState {
+            pc: 2109580,
+            merkle_root: Digest(32fc75bc2645280b7ba47556e3ff28f498d088bb5feafbe9ef7b712b4b8d9e54),
+        },
+        digest: Digest(0114a31c6c35ac8c489a99f10fda8215475c61545065b491bebb09c64dbb54a9),
+    },
+    exit_code: Halted(
+        0,
+    ),
+    input: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+    output: MaybePruned {
+        value: Some(
+            Output {
+                journal: MaybePruned {
+                    value: [
+                        1,
+                        0,
+                        0,
+                        120,
+                    ],
+                    digest: Digest(0975cd92bbee031820e817f5ed9ce479af10e785b51c9ed16c572d5c90110608),
+                },
+                assumptions: MaybePruned {
+                    value: Assumptions(
+                        [],
+                    ),
+                    digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+                },
+            },
+        ),
+        digest: Digest(bc7ab6c4770528956e0772b22ee8a218d2e571074b1a46d246a18479f55e2bc2),
+    },
+}
+[2m2024-05-29T08:41:45.477906Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+[2m2024-05-29T08:41:45.477911Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::receipt[0m[2m:[0m checking output: exit_code = Halted(0)
+Hello, world! I generated a proof of guest execution! 2013265921 is a public output from journal
