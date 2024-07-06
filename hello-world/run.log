@@ -1,0 +1,234 @@
+[2m2024-07-06T02:12:13.313814Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::api::server[0m[2m:[0m connect
+[2m2024-07-06T02:12:13.314106Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::api[0m[2m:[0m connect
+[2m2024-07-06T02:12:13.318434Z[0m [34mDEBUG[0m [2mrisc0_binfmt::image[0m[2m:[0m root_page_addr: 0x0d6b5800, root_addr: 0x0d6b5ac0
+[2m2024-07-06T02:12:13.345481Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [103] ecall_software
+[2m2024-07-06T02:12:13.345550Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::exec::syscall[0m[2m:[0m SYS_RANDOM: 4
+[2m2024-07-06T02:12:13.345562Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [153] ecall_software
+[2m2024-07-06T02:12:13.345697Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [222] ecall_software
+[2m2024-07-06T02:12:13.345707Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [290] ecall_software
+[2m2024-07-06T02:12:13.345715Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [359] ecall_software
+[2m2024-07-06T02:12:13.345724Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [445] ecall_software
+[2m2024-07-06T02:12:13.345732Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [493] ecall_software
+[2m2024-07-06T02:12:13.345755Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [809] ecall_sha
+[2m2024-07-06T02:12:13.345800Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [1566] ecall_sha
+[2m2024-07-06T02:12:13.345825Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [2022] ecall_sha
+[2m2024-07-06T02:12:13.345842Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m [2338] ecall_sha
+[2m2024-07-06T02:12:13.345853Z[0m [34mDEBUG[0m [2mrisc0_circuit_rv32im::prove::emu::exec[0m[2m:[0m ecall_halt(0, 0)
+[2m2024-07-06T02:12:13.347616Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::exec::executor[0m[2m:[0m execution time: 1.726875ms
+[2m2024-07-06T02:12:13.347625Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m number of segments: 1
+[2m2024-07-06T02:12:13.347629Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m total cycles: 65536
+[2m2024-07-06T02:12:13.347631Z[0m [32m INFO[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m user cycles: 2500
+[2m2024-07-06T02:12:13.347635Z[0m [34mDEBUG[0m [1mexecutor[0m[2m:[0m [2mrisc0_zkvm::host::server::session[0m[2m:[0m cycle efficiency: 3%
+[2m2024-07-06T02:12:13.347821Z[0m [34mDEBUG[0m [2mrisc0_zkvm::host::server::prove::prover_impl[0m[2m:[0m prove_session: exit_code = Halted(0), journal = Some("8701000000000000"), segments: 1
+[2m2024-07-06T02:12:13.347886Z[0m [34mDEBUG[0m [2mrisc0_binfmt::image[0m[2m:[0m root_page_addr: 0x0d6b5800, root_addr: 0x0d6b5ac0
+[2m2024-07-06T02:12:13.348127Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m preflight: Segment {
+    partial_image: ...,
+    pre_state: SystemState {
+        pc: 0x002011e8,
+        merkle_root: Digest(998748a2ea46327e34e3b2e82b006e6f144fb1e9e8525803895995ba2109d258),
+    },
+    post_state: SystemState {
+        pc: 0x00202f50,
+        merkle_root: Digest(7be028aee5add5814d643a6c49a7ad81101b2e30a5ebe053e39bfc5dfdb12248),
+    },
+    syscalls: ...,
+    insn_cycles: 2500,
+    po2: 16,
+    exit_code: Halted(
+        0,
+    ),
+    index: 0,
+    input_digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+    output_digest: Some(
+        Digest(ae147609dca77145f22714d2dbe748d1cbddbbdce3b31a9b0339d8b7bc56f9ff),
+    ),
+}
+[2m2024-07-06T02:12:13.348338Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m po2: 16
+[2m2024-07-06T02:12:13.348580Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [103] ecall_software: 3
+[2m2024-07-06T02:12:13.348595Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [153] ecall_software: 3
+[2m2024-07-06T02:12:13.348602Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [222] ecall_software: 3
+[2m2024-07-06T02:12:13.348609Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [290] ecall_software: 3
+[2m2024-07-06T02:12:13.348615Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [359] ecall_software: 3
+[2m2024-07-06T02:12:13.348622Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [445] ecall_software: 2
+[2m2024-07-06T02:12:13.348627Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [493] ecall_software: 2
+[2m2024-07-06T02:12:13.348656Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [809] ecall_sha: 74
+[2m2024-07-06T02:12:13.348713Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [1566] ecall_sha: 74
+[2m2024-07-06T02:12:13.348745Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [2022] ecall_sha: 74
+[2m2024-07-06T02:12:13.348764Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m [2338] ecall_sha: 74
+[2m2024-07-06T02:12:13.348774Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x35ad6, 1, 0, 0x0d6b5800)
+[2m2024-07-06T02:12:13.348783Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x35ad0, 1, 0, 0x0d6b4000)
+[2m2024-07-06T02:12:13.348790Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x35ac0, 1, 0, 0x0d6b0000)
+[2m2024-07-06T02:12:13.348810Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x35a02, 1, 0, 0x0d680800)
+[2m2024-07-06T02:12:13.348818Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x35800, 1, 0, 0x0d600000)
+[2m2024-07-06T02:12:13.348826Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x34041, 1, 0, 0x0d010400)
+[2m2024-07-06T02:12:13.348835Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x34040, 1, 0, 0x0d010000)
+[2m2024-07-06T02:12:13.348852Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x30000, 1, 0, 0x0c000000)
+[2m2024-07-06T02:12:13.348862Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x0083d, 1, 0, 0x0020f400)
+[2m2024-07-06T02:12:13.348870Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x0083c, 1, 0, 0x0020f000)
+[2m2024-07-06T02:12:13.348883Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x0082d, 1, 0, 0x0020b400)
+[2m2024-07-06T02:12:13.348893Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x0082c, 1, 0, 0x0020b000)
+[2m2024-07-06T02:12:13.348903Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x0080c, 1, 0, 0x00203000)
+[2m2024-07-06T02:12:13.348913Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x0080b, 1, 0, 0x00202c00)
+[2m2024-07-06T02:12:13.348972Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x0080a, 1, 0, 0x00202800)
+[2m2024-07-06T02:12:13.348981Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x00809, 1, 0, 0x00202400)
+[2m2024-07-06T02:12:13.348989Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x00807, 1, 0, 0x00201c00)
+[2m2024-07-06T02:12:13.348998Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x00806, 1, 0, 0x00201800)
+[2m2024-07-06T02:12:13.349007Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x00805, 1, 0, 0x00201400)
+[2m2024-07-06T02:12:13.349016Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x00804, 1, 0, 0x00201000)
+[2m2024-07-06T02:12:13.349025Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x00803, 1, 0, 0x00200c00)
+[2m2024-07-06T02:12:13.349035Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x00802, 1, 0, 0x00200800)
+[2m2024-07-06T02:12:13.349042Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m page_fault(0x00800, 1, 0, 0x00200000)
+[2m2024-07-06T02:12:13.349051Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mpreflight[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::emu::preflight[0m[2m:[0m padding: 36022, pre: 26414, body: 2500
+[2m2024-07-06T02:12:13.349577Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [0] BYTES_INIT
+[2m2024-07-06T02:12:13.349580Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [1] BYTES_SETUP
+[2m2024-07-06T02:12:13.349659Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [1562] RAM_INIT
+[2m2024-07-06T02:12:13.349662Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [1590] RESET(0)
+[2m2024-07-06T02:12:13.349664Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [1592] BODY: 63344
+[2m2024-07-06T02:12:13.353131Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [64936] RESET(1)
+[2m2024-07-06T02:12:13.353134Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [64938] RESET(2)
+[2m2024-07-06T02:12:13.353141Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [64940] RAM_FINI
+[2m2024-07-06T02:12:13.353143Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mload[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::loader[0m[2m:[0m [64941] BYTES_FINI
+[2m2024-07-06T02:12:13.353147Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::engine::witgen[0m[2m:[0m last_cycle: 64942
+[2m2024-07-06T02:12:13.367577Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m [2mrisc0_circuit_rv32im::prove::hal::cpu[0m[2m:[0m witgen: 65536, 64942
+[2m2024-07-06T02:12:13.515919Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mcommit_group[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m code group root: 57b2031d3881e92b85d73d2d0800a223fdaccd5e7bdd0a569c10556ec138f551
+[2m2024-07-06T02:12:14.367896Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mcommit_group[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m data group root: c7498e445a9794055add8d08d6a76a002790b92318f1b8774401074332736423
+[2m2024-07-06T02:12:14.605676Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mcommit_group[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m accum group root: f3b7b549852c6f65f42e4443a0c2f957f3ae6b2b0c7548144238e6180195a13d
+[2m2024-07-06T02:12:15.692160Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m checkGroup: c542e461816f2b037efefe344c9c7801a2166c04c7dfe83fcf65796281079d2d
+[2m2024-07-06T02:12:15.780373Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m Size of U = 942
+[2m2024-07-06T02:12:15.780820Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m Mix = [1521670991, 1315537278, 1559336037, 1534635471]
+[2m2024-07-06T02:12:15.782660Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m[1mmix_poly_coeffs[0m[2m:[0m [2mrisc0_zkp::hal::cpu[0m[2m:[0m output: 786432, input: 2359296, combos: 36, input_size: 36, count: 65536
+[2m2024-07-06T02:12:15.786346Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m[1mmix_poly_coeffs[0m[2m:[0m [2mrisc0_zkp::hal::cpu[0m[2m:[0m output: 786432, input: 1048576, combos: 16, input_size: 16, count: 65536
+[2m2024-07-06T02:12:15.788325Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m[1mmix_poly_coeffs[0m[2m:[0m [2mrisc0_zkp::hal::cpu[0m[2m:[0m output: 786432, input: 14614528, combos: 223, input_size: 223, count: 65536
+[2m2024-07-06T02:12:15.796918Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m[1mmix_poly_coeffs[0m[2m:[0m [2mrisc0_zkp::hal::cpu[0m[2m:[0m output: 786432, input: 1048576, combos: 16, input_size: 16, count: 65536
+[2m2024-07-06T02:12:15.812813Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m FRI-proof, size = 65536
+[2m2024-07-06T02:12:15.812837Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m[1mfri_prove[0m[2m:[0m [2mrisc0_zkp::prove::fri[0m[2m:[0m Doing FRI folding
+[2m2024-07-06T02:12:15.835131Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m[1mfri_prove[0m[2m:[0m [2mrisc0_zkp::prove::fri[0m[2m:[0m Doing FRI folding
+[2m2024-07-06T02:12:15.837567Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m[1mfri_prove[0m[2m:[0m [2mrisc0_zkp::prove::fri[0m[2m:[0m Doing Queries
+[2m2024-07-06T02:12:15.841006Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m proven_soundness_error: 47.458355
+[2m2024-07-06T02:12:15.841024Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m conjectured_security: 99.81536
+[2m2024-07-06T02:12:15.841027Z[0m [34mDEBUG[0m [1mprove_segment[0m[2m:[0m[1mprove[0m[2m:[0m[1mfinalize[0m[2m:[0m [2mrisc0_zkp::prove::prover[0m[2m:[0m Proof size = 53817
+[2m2024-07-06T02:12:15.848183Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt::segment[0m[2m:[0m SegmentReceipt::verify_integrity_with_context
+[2m2024-07-06T02:12:15.848228Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m code_merkle
+[2m2024-07-06T02:12:15.848287Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m data_merkle
+[2m2024-07-06T02:12:15.849357Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accumulate
+[2m2024-07-06T02:12:15.849383Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accum_merkle
+[2m2024-07-06T02:12:15.849442Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m check_merkle
+[2m2024-07-06T02:12:15.850059Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m > compute_polynomial
+[2m2024-07-06T02:12:15.851988Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m < compute_polynomial
+[2m2024-07-06T02:12:15.861258Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt::composite[0m[2m:[0m CompositeReceipt::verify_integrity_with_context
+[2m2024-07-06T02:12:15.861265Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt::segment[0m[2m:[0m SegmentReceipt::verify_integrity_with_context
+[2m2024-07-06T02:12:15.861292Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m code_merkle
+[2m2024-07-06T02:12:15.861352Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m data_merkle
+[2m2024-07-06T02:12:15.861412Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accumulate
+[2m2024-07-06T02:12:15.861418Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accum_merkle
+[2m2024-07-06T02:12:15.861481Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m check_merkle
+[2m2024-07-06T02:12:15.862078Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m > compute_polynomial
+[2m2024-07-06T02:12:15.862278Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m < compute_polynomial
+[2m2024-07-06T02:12:15.871334Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt::composite[0m[2m:[0m final: ReceiptClaim {
+    pre: MaybePruned {
+        value: SystemState {
+            pc: 0x002011e8,
+            merkle_root: Digest(998748a2ea46327e34e3b2e82b006e6f144fb1e9e8525803895995ba2109d258),
+        },
+        digest: Digest(926a7e264deada11301215adeddcaf26ba7aaa5f260e60fa021f50bd3807a86d),
+    },
+    post: MaybePruned {
+        value: SystemState {
+            pc: 0x00000000,
+            merkle_root: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+        },
+        digest: Digest(a3acc27117418996340b84e5a90f3ef4c49d22c79e44aad822ec9c313e1eb8e2),
+    },
+    exit_code: Halted(
+        0,
+    ),
+    input: MaybePruned {
+        digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+    },
+    output: MaybePruned {
+        value: Some(
+            Output {
+                journal: MaybePruned {
+                    value: [
+                        135,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                    ],
+                    digest: Digest(d58d1c3fd0cc8ce7e60acf1061ced1fc20c65942109a601c4bb7cbf693c464fe),
+                },
+                assumptions: MaybePruned {
+                    value: Assumptions(
+                        [],
+                    ),
+                    digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+                },
+            },
+        ),
+        digest: Digest(ae147609dca77145f22714d2dbe748d1cbddbbdce3b31a9b0339d8b7bc56f9ff),
+    },
+}
+[2m2024-07-06T02:12:15.871380Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt[0m[2m:[0m Receipt::verify_integrity_with_context
+[2m2024-07-06T02:12:15.871382Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt[0m[2m:[0m InnerReceipt::verify_integrity_with_context
+[2m2024-07-06T02:12:15.871384Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt::composite[0m[2m:[0m CompositeReceipt::verify_integrity_with_context
+[2m2024-07-06T02:12:15.871386Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt::segment[0m[2m:[0m SegmentReceipt::verify_integrity_with_context
+[2m2024-07-06T02:12:15.871412Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m code_merkle
+[2m2024-07-06T02:12:15.871468Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m data_merkle
+[2m2024-07-06T02:12:15.871525Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accumulate
+[2m2024-07-06T02:12:15.871530Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m accum_merkle
+[2m2024-07-06T02:12:15.871588Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m check_merkle
+[2m2024-07-06T02:12:15.872180Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m > compute_polynomial
+[2m2024-07-06T02:12:15.872369Z[0m [34mDEBUG[0m [1mverify[0m[2m:[0m [2mrisc0_zkp::verify[0m[2m:[0m < compute_polynomial
+[2m2024-07-06T02:12:15.881426Z[0m [34mDEBUG[0m [2mrisc0_zkvm::receipt::composite[0m[2m:[0m final: ReceiptClaim {
+    pre: MaybePruned {
+        value: SystemState {
+            pc: 0x002011e8,
+            merkle_root: Digest(998748a2ea46327e34e3b2e82b006e6f144fb1e9e8525803895995ba2109d258),
+        },
+        digest: Digest(926a7e264deada11301215adeddcaf26ba7aaa5f260e60fa021f50bd3807a86d),
+    },
+    post: MaybePruned {
+        value: SystemState {
+            pc: 0x00000000,
+            merkle_root: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+        },
+        digest: Digest(a3acc27117418996340b84e5a90f3ef4c49d22c79e44aad822ec9c313e1eb8e2),
+    },
+    exit_code: Halted(
+        0,
+    ),
+    input: MaybePruned {
+        digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+    },
+    output: MaybePruned {
+        value: Some(
+            Output {
+                journal: MaybePruned {
+                    value: [
+                        135,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                    ],
+                    digest: Digest(d58d1c3fd0cc8ce7e60acf1061ced1fc20c65942109a601c4bb7cbf693c464fe),
+                },
+                assumptions: MaybePruned {
+                    value: Assumptions(
+                        [],
+                    ),
+                    digest: Digest(0000000000000000000000000000000000000000000000000000000000000000),
+                },
+            },
+        ),
+        digest: Digest(ae147609dca77145f22714d2dbe748d1cbddbbdce3b31a9b0339d8b7bc56f9ff),
+    },
+}
+I know the factors of 391, and I can prove it!

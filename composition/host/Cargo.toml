@@ -1,0 +1,17 @@
+[package]
+name = "host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+composite-methods= { path = "../methods" }
+risc0-zkvm = { version = "1.0.1" }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+serde = "1.0"
+hallow-host = { path = "../../hello-world/host" }
+
+[features]
+cuda = ["risc0-zkvm/cuda"]
+default = []
+metal = ["risc0-zkvm/metal"]
+prove = ["risc0-zkvm/prove"]
