@@ -22,7 +22,7 @@ fn main() {
     let prover = default_prover();
 
     // receipt
-    let receipt = prover.prove(env, BEVY_ELF).unwrap();
+    let receipt = prover.prove(env, BEVY_ELF).unwrap().receipt;
 
     // verify
     receipt.verify(BEVY_ID).unwrap();

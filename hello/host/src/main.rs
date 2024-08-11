@@ -3,7 +3,7 @@
 use methods::{
     GUEST_CODE_FOR_ZK_PROOF_ELF, GUEST_CODE_FOR_ZK_PROOF_ID
 };
-use risc0_zkvm::{default_prover, ExecutorEnv,default_executor};
+use risc0_zkvm::{default_prover, ExecutorEnv};
 
 fn main() {
     // Initialize tracing. In order to view logs, run `RUST_LOG=info cargo run`
@@ -34,6 +34,7 @@ fn main() {
 
     
     /*
+    use risc0_zkvm::default_executor;
     let executor = default_executor();
     let res = executor.execute(env, GUEST_CODE_FOR_ZK_PROOF_ELF).unwrap();
 
@@ -44,7 +45,7 @@ fn main() {
     // Produce a receipt by proving the specified ELF binary.
     let receipt = prover
         .prove(env, GUEST_CODE_FOR_ZK_PROOF_ELF)
-        .unwrap();
+        .unwrap().receipt;
 
     // TODO: Implement code for retrieving receipt journal here.
 
