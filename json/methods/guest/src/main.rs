@@ -1,5 +1,3 @@
-
-
 use json::parse;
 use core::Outputs;
 use risc0_zkvm::{

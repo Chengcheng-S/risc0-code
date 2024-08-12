@@ -77,7 +77,7 @@ fn run_guest(iters: i32) -> i32 {
     // Obtain the default prover.
     let prover = default_prover();
 
-    let receipt = prover.prove(env, WASM_ELF).unwrap();
+    let receipt = prover.prove(env, WASM_ELF).unwrap().receipt;
 
     receipt.verify(WASM_ID).expect(
         "Code you have proven should successfully verify; did you specify the correct image ID?",

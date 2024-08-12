@@ -37,7 +37,7 @@ fn main() {
     // Produce a receipt by proving the specified ELF binary.
     let receipt = prover
         .prove(env, SHA_ELF)
-        .unwrap();
+        .unwrap().receipt;
 
     // TODO: Implement code for retrieving receipt journal here.
 
